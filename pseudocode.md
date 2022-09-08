@@ -13,18 +13,35 @@ The controller needs to be able to distinguish if it has power or not. If it doe
 - Remote controller
     - Transmitter
     - Reciever
-    - Battery
+    - Battery Compartment and Battery
+        - Door to access the battery compartment to replace battery
+        - Springs to contact battery terminals and hold batteries in place
+        - Which ever types of batteries and how many batteries it takes
+
     - Power Light
+        - LED light
+        - Wire connecting light to see if the battery has power after the On/Off switch is in the on position
     - On/Off switch
+        - a circuit that either is open or shut
+        - a switch to open or shut the circuit
+        - the circuit sends power from the battery to the whole controller
     - Control board (buttons for moving the car)
+        - Gas toggle
+            - forward
+            - backwards
+            - no movement
+        - Steering toggle
+            - Left
+            - Right
+            - Return to Center
     - Body of controler (how do you hold it?)
 
 - Remote Car
     - Body
-    - Wheels
+        - Motor for back wheels
+        - Motor for steering the front wheels
+        - Wheels
     - Reciever
     - Control Board
-    - Motor for back wheels
-    - Motor for steering the front wheels
     - On/Off switch
     - Power light
