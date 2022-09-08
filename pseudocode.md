@@ -10,6 +10,21 @@ The car needs to be able to distinguish if it has power or not display light for
 The controller needs to be able to distinguish if it has power or not. If it does display power on light. Then it needs to take the input from the user and transmit it to the car. Gas, break, turn left or right.
 
 ## Objects
-- User
 - Remote controller
+    - Transmitter
+    - Reciever
+    - Battery
+    - Power Light
+    - On/Off switch
+    - Control board (buttons for moving the car)
+    - Body of controler (how do you hold it?)
+
 - Remote Car
+    - Body
+    - Wheels
+    - Reciever
+    - Control Board
+    - Motor for back wheels
+    - Motor for steering the front wheels
+    - On/Off switch
+    - Power light
