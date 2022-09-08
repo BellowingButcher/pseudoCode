@@ -1,6 +1,6 @@
 # Driving a Remote control car
 
-### Functionality
+## Functionality
 To drive a remote control car you need a few things. A car to drive, a remote control to control the car, and batteries to power both the car and controller.
 
 The user needs to be able to turn the car and controller on, then with the push of some buttons, move the car forward or backwards, and be able to turn left or right at the same time.  
