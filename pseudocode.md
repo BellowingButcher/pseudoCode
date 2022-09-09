@@ -14,7 +14,9 @@ The controller needs to be able to distinguish if it has power or not. If it doe
     - Transmitter 
         - Each movement button is tied to a spacific radio wave pulse known as hertz
         - No two buttons use the same hertz
-        - 
+        - Transmitter waits for an electric conection to be made when the joy sticks are moved.
+            - It should be able to transmit two radio waves at once
+                - If the user is inputing (forward or backwards) AND if the user is (inputing left or right).
 
     - Battery Compartment and Battery
         - Door to access the battery compartment to replace battery
