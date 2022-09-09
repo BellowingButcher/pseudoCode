@@ -1,7 +1,7 @@
 # Driving a Remote control car
 
-## Functionality
-To drive a remote control car you need a few things. A car to drive, a remote control to control the car, and batteries to power both the car and controller.
+## About RC cars
+To drive a remote control car you need a few things. A car to drive, a remote control to control the car, and batteries to power both the car and controller, and a user to decide where and when to move.
 
 The user needs to be able to turn the car and controller on, then with the push of some buttons, move the car forward or backwards, and be able to turn left or right at the same time.  
 
@@ -11,8 +11,11 @@ The controller needs to be able to distinguish if it has power or not. If it doe
 
 ## Objects
 - Remote controller
-    - Transmitter
-    - Reciever
+    - Transmitter 
+        - Each movement button is tied to a spacific radio wave pulse known as hertz
+        - No two buttons use the same hertz
+        - 
+
     - Battery Compartment and Battery
         - Door to access the battery compartment to replace battery
         - Springs to contact battery terminals and hold batteries in place
@@ -30,10 +33,12 @@ The controller needs to be able to distinguish if it has power or not. If it doe
             - forward
             - backwards
             - no movement
+                - This is a joy stick that can move in two directions, forward and back. When released it returns the stick back to center. Stopping any forward or backward movement of the wheels.
         - Steering toggle
             - Left
             - Right
             - Return to Center
+                - This is a joy stick that can only move in two directions, left and right. When released the stick returns to center. Returning the steering column to center.
     - Body of controler (how do you hold it?)
 
 - Remote Car
