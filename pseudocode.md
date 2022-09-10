@@ -83,7 +83,29 @@ The controller needs to be able to distinguish if it has power or not. If it doe
     - On/Off switch
         - If the switch is on then power the car
         - If switch is off then the car has no power
-        
+
     - Power light
         - If the car has power display light
         - else light off
+
+## Functionality
+
+How to start the program driveMyCar
+
+1. User must move the powerSwitch of the R.C. car **And** the powerSwitch on the R.C. controller to the on position
+    - **If** there are no batteries
+    - **Or** the batteries are dead.
+        - **Then** replace batteries with new batteries.
+
+2. User decides what direction they want to go in.
+    - forwardStraight
+    - forwardRight
+    - forwardLeft
+    - backwardStraight
+    - backwardRight
+    - backwardLeft
+    - noWhere
+
+3. User uses the gas toggle and the steering toggle to input movement and direction.
+
+4. User must enjoy time or effort was useless.
