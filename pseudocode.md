@@ -96,6 +96,7 @@ How to start the program driveMyCar
     - **If** there are no batteries
     - **Or** the batteries are dead.
         - **Then** replace batteries with new batteries.
+        - **Read** if the power light is on 
 
 2. User decides what direction they want to go in.
     - forwardStraight
@@ -109,3 +110,5 @@ How to start the program driveMyCar
 3. User uses the gas toggle and the steering toggle to input movement and direction.
 
 4. User must enjoy time or effort was useless.
+
+5. User must turn off car and controller or they will waste the batteries.
