@@ -11,6 +11,7 @@ The controller needs to be able to distinguish if it has power or not. If it doe
 
 ## Objects
 - Remote controller
+
     - Transmitter 
         - Each movement button is tied to a spacific radio wave pulse known as hertz
         - No two buttons use the same hertz
@@ -26,16 +27,20 @@ The controller needs to be able to distinguish if it has power or not. If it doe
     - Power Light
         - LED light
         - Wire connecting light to see if the battery has power after the On/Off switch is in the on position
+
     - On/Off switch
         - a circuit that either is open or shut
         - a switch to open or shut the circuit
         - the circuit sends power from the battery to the whole controller
+
     - Control board (buttons for moving the car)
+
         - Gas toggle
             - forward
             - backwards
             - no movement
                 - This is a joy stick that can move in two directions, forward and back. When released it returns the stick back to center. Stopping any forward or backward movement of the wheels.
+
         - Steering toggle
             - Left
             - Right
@@ -44,11 +49,41 @@ The controller needs to be able to distinguish if it has power or not. If it doe
     - Body of controler (how do you hold it?)
 
 - Remote Car
+
     - Body
+
         - Motor for back wheels
         - Motor for steering the front wheels
         - Wheels
+
     - Reciever
+
+        - listening for spacific hertz radio waves from the controller
+
+            - Move car forward
+                - Start when connection is made
+                -Stop when connection is broken
+
+            - Move car backwards
+                - Start when connection is made
+                - Stop when connection is broken
+
+            - Steer Wheels right
+                - Move wheels to steer right when connection is made
+                - Return to center when connection is lost
+
+            - Steer wheels left
+                - Move wheels to steer left when connection is made
+                - Move wheels to center when connection is lost
+
     - Control Board
+        - Listens to the comands from the reciever and executes the commands
+            - Tells what motors to run and when
+
     - On/Off switch
+        - If the switch is on then power the car
+        - If switch is off then the car has no power
+        
     - Power light
+        - If the car has power display light
+        - else light off
