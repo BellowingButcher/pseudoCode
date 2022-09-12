@@ -112,3 +112,6 @@ How to start the program driveMyCar
 4. User must enjoy time or effort was useless.
 
 5. User must turn off car and controller or they will waste the batteries.
+
+---
+Ideas for EventListeners - Use the AbortSignal to stop your motors from running when loss of connections.
